@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+}
+
+header {
+  background: orange;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: orange;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: yellow;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.sidebar {
+  width: 25%;
+  background: yellow;
+  padding: 20px;
+}
+
+.content {
+  width: 75%;
+  background: orange;
+  padding: 20px;
+}
+table {
+  background-color: black;
+}
+tr {
+  background-color: yellow;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
